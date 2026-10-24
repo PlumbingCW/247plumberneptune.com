@@ -1,0 +1,2 @@
+# Intentionally empty. Cloudflare Pages serves slug/index.html at /slug/ natively.
+# Add real 301s here only for legacy or cross-domain paths.
