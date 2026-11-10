@@ -257,3 +257,7 @@ a:focus-visible,button:focus-visible,.btn:focus-visible{outline:3px solid var(--
 .hero.hero-photo:before{background:linear-gradient(100deg,rgba(32,32,90,.92) 0%,rgba(38,38,110,.8) 42%,rgba(44,44,130,.18) 70%,rgba(44,44,130,.08) 100%)}
 .hero.hero-photo .gcard{background:rgba(32,32,90,.78);backdrop-filter:blur(6px)}
 .vanband{padding:56px 0 56px}.vanband figure{margin:0}.vanband img{display:block;width:100%;height:auto;border-radius:var(--r);box-shadow:var(--shadow)}.vanband figcaption{margin-top:12px;color:var(--gray);font-size:15px}
+
+.areas.nbh{grid-template-columns:repeat(3,1fr)}
+@media(max-width:768px){.areas.nbh{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.areas.nbh{grid-template-columns:1fr}}
